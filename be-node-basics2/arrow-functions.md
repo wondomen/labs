@@ -40,11 +40,11 @@ function sayHello() {
 
 <details>
   <summary>Solution</summary>
-```js
-// Refactored to arrow function
+
 const sayHelloArrow = () => "Hello, world!";
-```
+
 </details>
+
 
 **Scenario 2**: Single Parameter:
 Refactor a function with a single parameter:
@@ -58,10 +58,9 @@ function double(x) {
 
 <details>
   <summary>Solution</summary>
-```js
-// Refactored to arrow function
+
 const doubleArrow = x => x * 2;
-```
+
 </details>
 
 
@@ -77,10 +76,9 @@ function add(x, y) {
 
 <details>
   <summary>Solution</summary>
-```js
-// Refactored to arrow function
+
 const addArrow = (x, y) => x + y;
-```
+
 </details>
 
 **Scenario 4**: Function Inside an Object:
@@ -95,17 +93,17 @@ const person = {
     }
 };
 ```
-
+<!-- 
 <details>
   <summary>Solution</summary>
-```js
-// Refactored to arrow function
+
 const personArrow = {
     name: "Alice",
     sayHi: () => "Hi, " + this.name + "!" // 'this' will not work as expected here
 };
-```
-</details>
+
+</details> 
+-->
 
 **Scenario 5**: Callback Functions:
 > Call back functions and map() will be discussed later in the course
@@ -123,10 +121,9 @@ const doubled = numbers.map(function(num) {
 
 <details>
   <summary>Solution</summary>
-```js
-// Refactored to arrow function
+
 const doubledArrow = numbers.map(num => num * 2);
-```
+
 </details>
 
 - Step 5: Run the Script:

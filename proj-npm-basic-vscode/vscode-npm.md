@@ -20,6 +20,7 @@ Go to the "View" menu and select "Terminal" or press Ctrl + ` (backtick).
 Navigate to your project directory using the cd command.
 Initialize your project with npm init and follow the prompts.
 Install the date-fns library as a project dependency using npm:
+
 ```sh
 npm install date-fns
 ```

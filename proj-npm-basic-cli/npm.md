@@ -18,7 +18,7 @@ Create a new directory for your lab work and navigate to it using your terminal:
 ```sh
 mkdir date-fns-lab
 cd date-fns-lab
-```sh
+```
 
 Initialize a new Node.js project:
 
@@ -62,7 +62,7 @@ function manipulateDate() {
 }
 
 manipulateDate();
-```sh
+```
 
 - Step 5: Run the Script:
 Run the dateManipulation.js script using the Node.js runtime:
@@ -215,7 +215,7 @@ const add = require('./math');
 test('adds 1 + 2 to equal 3', () => {
   expect(add(1, 2)).toBe(3);
 });
-```sh
+```
 
 
 - Step 5: Update package.json Scripts:
