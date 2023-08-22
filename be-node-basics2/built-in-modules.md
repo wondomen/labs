@@ -19,6 +19,8 @@ cd os-module-lab
 
 Step 2: Create a New JavaScript File:
 Create a new file named `os_lab.js` in the directory.
+  - On Linux/macOS: `touch os_lab.js`
+  - On Windows:`notepad os_lab.js`
 
 - Step 3: Open the File in an Editor:
 Open the `os_lab.js` file in your favorite code editor.

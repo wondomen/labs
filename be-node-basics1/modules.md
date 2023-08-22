@@ -19,9 +19,8 @@ cd custom-modules-lab
 ```
 
 - Step 2: Create Module Files:
-Create two new files named `greetings.js` and `app.js` in the directory:
-
-
+Create two new files named `greetings.js` and `app.js` in the directory: `touch greeting.js app.js`
+ 
 - Step 3: Define a Custom Module:
 Open the `greetings.js` file in your code editor and define a custom module that exports a function:
 

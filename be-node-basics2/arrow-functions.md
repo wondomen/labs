@@ -20,6 +20,8 @@ cd arrow-function-lab
 
 - Step 2: Create a New JavaScript File:
 Create a new file named `refactor_lab.js` in the directory.
+  - On Linux/macOS: `touch refactor_lab.js`
+  - On Windows:`notepad refactor_lab.js`
 
 
 - Step 3: Open the File in an Editor:

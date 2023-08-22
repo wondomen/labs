@@ -21,8 +21,8 @@ cd node-scripts-lab
 
 - Step 2: Create a New JavaScript File:
 Create a new file named `greeting.js` in the directory. You'll write your script in this file.
-
-
+  - On Linux/macOS: `touch greeting.js`
+  - On Windows:`notepad greeting.js`
 
 - Step 3: Open the File in an Editor:
 Open the `greeting.js` file in your favorite code editor.
