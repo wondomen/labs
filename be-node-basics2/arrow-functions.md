@@ -95,17 +95,17 @@ const person = {
     }
 };
 ```
-<!-- 
+
 <details>
   <summary>Solution</summary>
-
+<pre>
 const personArrow = {
     name: "Alice",
     sayHi: () => "Hi, " + this.name + "!" // 'this' will not work as expected here
 };
-
+</pre>
 </details> 
--->
+
 
 **Scenario 5**: Callback Functions:
 > Call back functions and map() will be discussed later in the course

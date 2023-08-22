@@ -14,8 +14,10 @@ Dev
 └── week1
     ├── Frontend
     ├── Backend
-    └── Project
+    ├── Project
+    └── Reflection-Journal
 ```
+
 - This activity will be carried in the `Project` folder
 
 
