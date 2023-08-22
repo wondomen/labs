@@ -16,10 +16,10 @@ Dev
     ├── Backend
     └── Project
 ```
-- This activity will be carried in the Backend folder
+- This activity will be carried in the `Backend` folder
 
 
-### Node.JS
+### 2. Node.JS
 
 Make sure that Node is installed. Here are the [Instructions]
 
