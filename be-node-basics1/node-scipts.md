@@ -6,7 +6,8 @@ In this lab, you will learn how to create and use Node.js scripts. Node.js allow
 
 ### Prerequisites:
 
-Node.js installed on your machine.
+- Node.js installed on your machine.
+- For Windows users, you need also need Git Bash
 
 ### Lab Steps:
 
