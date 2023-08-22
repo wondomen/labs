@@ -1,8 +1,13 @@
 # README
 
-Before staring activity make sure, that 
+### Tasks:
 
-### 1. You have the following hierarchy:
+- [Exploring npm](npm.md)
+
+
+### Before staring activity make sure, that 
+
+1. You have the following hierarchy:
 
 ```sh
 Dev
@@ -14,11 +19,11 @@ Dev
 - This activity will be carried in the `Project` folder
 
 
-### 2. Node.JS
+2. Node.JS
 
 Make sure that Node is installed. Here are the [Instructions]
 
-### 3. **For windows' users** 
+3. **For windows' users** 
 
 Make sure that you Installed Git Bash:
   -  If you haven't already, download and install Git for your operating system. Git Bash is included with the Git installation on Windows.

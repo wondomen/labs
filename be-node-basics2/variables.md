@@ -1,4 +1,4 @@
-#Lab: JavaScript Variables and Using let and const Instead of var
+# Lab: JavaScript Variables and Using let and const Instead of var
 
 ### Introduction:
 

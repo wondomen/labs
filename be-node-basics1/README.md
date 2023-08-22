@@ -1,13 +1,14 @@
 # README
 
+### Tasks:
 - [Exploring Node.js REPL (Read-Eval-Print Loop)](./REPL.md)
 - [Creating and Using Node.js Scripts](node-scipts.md)
 - [Creating and Using Custom Modules](modules.md)
 
 
-Before staring activity make sure, that 
+### Before staring activity make sure, that: 
 
-### 1. You have the following hierarchy:
+1. You have the following hierarchy:
 
 ```sh
 Dev
@@ -19,11 +20,11 @@ Dev
 - This activity will be carried in the `Backend` folder
 
 
-### 2. Node.JS
+2. Node.JS
 
 Make sure that Node is installed. Here are the [Instructions]
 
-### 3. **For windows' users** 
+3. **For windows' users** 
 
 Make sure that you Installed Git Bash:
   -  If you haven't already, download and install Git for your operating system. Git Bash is included with the Git installation on Windows.

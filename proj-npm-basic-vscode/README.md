@@ -1,8 +1,13 @@
 # README
 
-Before staring activity make sure, that 
+### Tasks:
 
-### 1. You have the following hierarchy:
+- [Introduction to Visual Studio Code (VSCode)](vscode.md)
+- [npm and VSCode](vscode-npm.md)
+
+### Before staring activity make sure, that 
+
+1. You have the following hierarchy:
 
 ```sh
 Dev
@@ -14,11 +19,11 @@ Dev
 - This activity will be carried in the `Project` folder
 
 
-### 2. Node.JS & VsCode
+2. Node.JS & VsCode
 
 Make sure that Node  and VsCode are installed. Here are the [Instructions].
 
-### 4. **For windows' users** 
+3. **For windows' users** 
 
 Make sure that you Installed Git Bash:
   -  If you haven't already, download and install Git for your operating system. Git Bash is included with the Git installation on Windows.
