@@ -45,13 +45,11 @@ You can define and use functions within the REPL. Try creating a simple function
 ```
 
 - Step 6: Using Special Variables:
-The REPL provides special variables such as `_` and `__` to access the results of the last and second-to-last expressions, respectively. Try using these special variables:
+The REPL provides special variables such as `_`  to access the results of the last expressions. Try using these special variables:
 
 ```js
 > 10 + 20
 > _
-> 30 * 2
-> __
 ```
 
 - Step 7: Exiting the REPL:
