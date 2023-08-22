@@ -16,7 +16,6 @@ Dev
     ├── Backend
     ├── Project
     └── Reflection-Journal
-
 ```
 - This activity will be carried in the `Project` folder
 

@@ -38,7 +38,8 @@ console.log("Hello, World!");
   - Run the JavaScript file using the command:
 ```sh
 node hello_world.js
-````sh
+```
+
   - You should see the output "Hello, World!" in the terminal.
 
 Step 7: Extensions
