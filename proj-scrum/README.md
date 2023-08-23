@@ -1,4 +1,4 @@
-# Lab: Introduction to Scrum for Beginners
+<!-- # Lab: Introduction to Scrum for Beginners
 
 In this lab, you'll be introduced to the fundamental concepts of Scrum, a widely-used agile framework for managing and delivering projects. Scrum promotes collaboration, flexibility, and iterative development. Let's dive in!
 
@@ -54,4 +54,4 @@ In this lab, you'll be introduced to the fundamental concepts of Scrum, a widely
 
 **Summary:**
 
-In this lab, you gained an introductory understanding of Scrum by creating a simple Scrum board, running a mock sprint, and reflecting on the process. Scrum's iterative and collaborative approach allows teams to deliver value incrementally and adapt to changing requirements. This lab serves as a starting point for your journey into the world of Scrum and agile project management.
+In this lab, you gained an introductory understanding of Scrum by creating a simple Scrum board, running a mock sprint, and reflecting on the process. Scrum's iterative and collaborative approach allows teams to deliver value incrementally and adapt to changing requirements. This lab serves as a starting point for your journey into the world of Scrum and agile project management. -->
