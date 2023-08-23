@@ -104,7 +104,7 @@ mkdir npm-lab
 cd npm-lab
 ```
 
-Initialize a new Node.js project using the following command. This will create a package.json file that tracks your project's dependencies and settings:
+Initialize a new Node.js project using the following command. This will create a `package.json` file that tracks your project's dependencies and settings:
 
 ```sh
 npm init -y
