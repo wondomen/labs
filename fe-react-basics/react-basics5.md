@@ -4,12 +4,24 @@ In this lab, you'll create a React component that demonstrates how to conditiona
 
 **Step 1: Setting Up Your Environment**
 
-1. **Create a New React App:**
-   Open your terminal and run:
-   ```
-   npx create-react-app react-conditional-jsx-lab
-   cd react-conditional-jsx-lab
-   ```
+Please choose only **one** alternatives
+
+1. First method
+
+Open your terminal and run:
+```sh
+npx degit tx00-web/labs/react-starter#main react-conditional-jsx-lab
+cd react-conditional-jsx-lab
+```
+
+
+1. Second method
+Open your terminal and run:
+
+```sh
+npx create-react-app react-conditional-jsx-lab
+cd react-conditional-jsx-lab
+```
 
 **Step 2: Creating a Component with Conditional Rendering**
 
@@ -20,8 +32,6 @@ In this lab, you'll create a React component that demonstrates how to conditiona
    Open `UserGreeting.js` and write the following code:
 
    ```jsx
-   import React from 'react';
-
     function UserGreeting(props) {
         const isLoggedIn = props.isLoggedIn;
 
@@ -48,7 +58,6 @@ In this lab, you'll create a React component that demonstrates how to conditiona
    Open the `src/App.js` file and replace the existing code with the following:
 
    ```jsx
-   import React from 'react';
    import UserGreeting from './UserGreeting';
 
    function App() {
@@ -66,9 +75,10 @@ In this lab, you'll create a React component that demonstrates how to conditiona
 
 1. **Start the App:**
    Save all your changes and return to the terminal. Make sure you're still in the `react-conditional-jsx-lab` directory. Start the app by running:
-   ```
-   npm start
-   ```
+
+```sh
+npm start
+```
 
 2. **View in Browser:**
    Your app will automatically open in your default web browser. You should see the output of the `UserGreeting` component with the content conditionally rendered based on the `isLoggedIn` prop value.
@@ -77,8 +87,6 @@ In this lab, you'll create a React component that demonstrates how to conditiona
 Here's the modified `UserGreeting.js` component using ternary operator for conditional rendering:
 
 ```jsx
-import React from 'react';
-
 function UserGreeting(props) {
     const isLoggedIn = props.isLoggedIn;
 
@@ -94,7 +102,6 @@ function UserGreeting(props) {
     );
 }
 
-
 export default UserGreeting;
 ```
 
@@ -103,11 +110,12 @@ The logic remains the same, but instead of using an `if` statement, the componen
 **Step 6: Run the App**
 
 1. **Start the App:**
-   ```
-   npm start
-   ```
 
-2. **View in Browser:**
+```sh
+npm start
+```
+
+2. **View in Browser**
 
 **Summary:**
 

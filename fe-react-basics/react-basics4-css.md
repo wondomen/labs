@@ -1,15 +1,27 @@
 # Lab: Exploring Props and Styling in a React Project
 
-In this lab, you'll create a React component, pass props to it, and console.log() the properties. You'll also gain an understanding of props as objects, use JavaScript expressions within JSX using curly braces, and apply CSS styles to your component.
+In this lab, you'll create a React component, pass `props` to it, and `console.log()` the properties. You'll also gain an understanding of `props` as objects, use JavaScript expressions within `JSX` using curly braces, and apply CSS styles to your component.
 
 **Step 1: Setting Up Your Environment**
 
-1. **Create a New React App:**
-   Open your terminal and run:
-   ```
-   npx create-react-app react-props-styling-lab
-   cd react-props-styling-lab
-   ```
+Please choose only **one** alternatives
+
+1. First method
+
+Open your terminal and run:
+```sh
+npx degit tx00-web/labs/react-starter#main react-props-styling-lab
+cd react-props-styling-lab
+```
+
+
+1. Second method
+Open your terminal and run:
+
+```sh
+npx create-react-app react-props-styling-lab
+cd react-props-styling-lab
+```
 
 **Step 2: Creating and Using a Component with Props**
 
@@ -20,8 +32,6 @@ In this lab, you'll create a React component, pass props to it, and console.log(
    Open `Greeting.js` and write the following code:
 
    ```jsx
-   import React from 'react';
-
    function Greeting(props) {
        console.log(props); // Log the props object
        
@@ -42,7 +52,6 @@ In this lab, you'll create a React component, pass props to it, and console.log(
    Open the `src/App.js` file and replace the existing code with the following:
 
    ```jsx
-   import React from 'react';
    import Greeting from './Greeting';
    import './App.css'; // Import CSS file
 

@@ -6,10 +6,11 @@ In this lab, you'll create a new React project and explore its dependencies, inc
 
 1. **Create a New React App:**
    Open your terminal and run:
-   ```sh
-   npx create-react-app react-dependencies-lab
-   cd react-dependencies-lab
-   ```
+   
+```sh
+npx create-react-app react-dependencies-lab
+cd react-dependencies-lab
+```
 
 **Step 2: Exploring Project Dependencies and Dev Dependencies**
 
@@ -20,13 +21,15 @@ In this lab, you'll create a new React project and explore its dependencies, inc
    Look for the `"dependencies"` section in `package.json`. These are the packages required for your app to run properly. Some common dependencies might include `react` and `react-dom`. You can install these packages using `npm install`.
 
    Hints: 
-   - Look for lines like `"react": "^17.0.2"` and `"react-dom": "^17.0.2"` under `"dependencies"`.
+   - Look for lines like `"react": "^18.2.0"` and `"react-dom": "^18.2.0"` under `"dependencies"`.
 
 3. **Dev Dependencies:**
-   Dev dependencies are packages required during development, but not in production. They include tools for testing, code linting, bundling, etc. They are listed under the `"devDependencies"` section.
+   Dev dependencies are packages required during development, but not in production. They include tools for testing, code linting, bundling, etc. They should be listed under the `"devDependencies"` section.
 
-   Hints:
-   - Look for packages like `eslint`, `babel`, or `jest` under `"devDependencies"`.
+   - Do you see `"devDependencies"` section in `package.json`. 
+
+   Hint: Check this [thread]
+
 
 **Step 3: Understanding `import` vs. `require`**
 
@@ -45,3 +48,7 @@ In this lab, you'll create a new React project and explore its dependencies, inc
 **Summary:**
 
 In this lab, you created a new React project and explored its dependencies, including project dependencies and dev dependencies. You learned the distinction between them and how to identify them in the `package.json` file. Additionally, you understood why the `import` statement is favored over `require` in modern React projects, thanks to its compatibility with ES6 modules and its advantages in terms of code optimization and tooling.
+
+<!-- Links -->
+
+[thread]:https://stackoverflow.com/questions/44868453/create-react-app

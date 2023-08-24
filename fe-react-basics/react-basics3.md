@@ -5,11 +5,15 @@ In this lab, you'll create a React component and explore how to pass, read, and 
 **Step 1: Setting Up Your Environment**
 
 1. **Create a New React App:**
-   Open your terminal and run:
-   ```
-   npx create-react-app props-lab
-   cd props-lab
-   ```
+
+- Create a New React App based on this simple template 
+
+```sh
+npx degit tx00-web/labs/react-starter#main props-lab
+cd props-lab
+```
+
+> [degit] clones a specific subdirectory instead of the entire repo.
 
 **Step 2: Create and Use a Component with Props**
 
@@ -20,8 +24,6 @@ In this lab, you'll create a React component and explore how to pass, read, and 
    Open `WelcomeMessage.js` and write the following code:
 
    ```jsx
-   import React from 'react';
-
    // Defining a functional component with props
    function WelcomeMessage(props) {
        return (
@@ -42,7 +44,6 @@ In this lab, you'll create a React component and explore how to pass, read, and 
    Open the `src/App.js` file and replace the existing code with the following:
 
    ```jsx
-   import React from 'react';
    import WelcomeMessage from './WelcomeMessage';
 
    function App() {
@@ -72,3 +73,6 @@ In this lab, you'll create a React component and explore how to pass, read, and 
 **Summary:**
 
 In this lab, you learned how to work with props in React components. You created a component that accepts props, passed props to the component, and learned how to read and use those props. You also saw how to provide default values for props and how to pass additional JSX as children. Finally, you explored how props can change over time, making your components dynamic and flexible.
+
+<!-- Links -->
+[degit]:https://github.com/Rich-Harris/degit

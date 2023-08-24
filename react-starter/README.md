@@ -38,7 +38,7 @@ In general to clone a specific subdirectory instead of the entire repo, you can 
 npx degit user/repo/subdirectory#branch new-folder 
 ```
 
-[degit]:https://github.com/Rich-Harris/degit
+
 
 ### `npx` vs `npm`
 
@@ -67,3 +67,7 @@ For example, if you want to run a package without installing it globally or addi
 Additionally, `npx` can be used to run a specific version of a package, which is helpful in cases where you need to use a different version for a specific command without changing your environment's configuration.
 
 While both tools are related to Node.js development and package management, `npm` is primarily used for installing and managing packages, while `npx` is used to execute packages or binaries, especially those that you might not want to install globally or maintain as project dependencies.
+
+
+<!-- Links -->
+[degit]:https://github.com/Rich-Harris/degit

@@ -6,11 +6,14 @@ In this lab, we'll create a simple React component to display information using 
 
 Before you start, ensure you have Node.js and npm (Node Package Manager) installed.
 
-- Create a New React App: by running:
-   ```
-   npx create-react-app jsx-lab
-   cd jsx-lab
-   ```
+- Create a New React App based on this simple template 
+
+```sh
+npx degit tx00-web/labs/react-starter#main jsx-lab
+cd jsx-lab
+```
+
+> [degit] clones a specific subdirectory instead of the entire repo. 
 
 ### Step 2: Create a Simple Component**
 
@@ -43,16 +46,17 @@ Before you start, ensure you have Node.js and npm (Node Package Manager) install
    Open the `src/index.js` file and replace the existing code with the following:
 
    ```jsx
-   import React from 'react';
-   import ReactDOM from 'react-dom';
+   import React from 'react'
+   import ReactDOM from 'react-dom/client'
+
    import SimpleComponent from './SimpleComponent';
 
-   ReactDOM.render(
-       <React.StrictMode>
-           <SimpleComponent />
-       </React.StrictMode>,
-       document.getElementById('root')
-   );
+   const root = ReactDOM.createRoot(document.getElementById('root'))
+   root.render(
+  <React.StrictMode>
+    <SimpleComponent />
+  </React.StrictMode>
+   )
    ```
 
 **Step 4: Run the App**
@@ -69,3 +73,6 @@ Before you start, ensure you have Node.js and npm (Node Package Manager) install
 **Summary:**
 
 In this lab, you learned how to create a basic React component using JSX. You explored importing and exporting components, compared JSX to HTML, and gained a better understanding of how React mixes markup with rendering logic. You also learned how to display information with JSX and the importance of not passing JavaScript directly in JSX using curly braces.
+
+<!-- Links -->
+[degit]:https://github.com/Rich-Harris/degit
