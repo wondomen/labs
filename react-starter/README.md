@@ -4,6 +4,7 @@
 npx degit tx00-web/labs/react-starter#main react-lab
 ```
 
+> If you receive error like this `npm ERR! enoent ENOENT: no such file or directory`, then one fix is to issue this command: `npm install npm -g` . (Credits: Antti Kukkonen)
 
 - Run
 ```sh

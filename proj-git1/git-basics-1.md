@@ -1,4 +1,4 @@
-<!-- # Lab: Getting Started with Git: `init`, `commit`, and Basic Operations
+# Lab: Getting Started with Git: `init`, `commit`, and Basic Operations
 
 In this lab, you'll get hands-on experience with the fundamental Git commands: `init` to initialize a new Git repository, and `commit` to save changes to your repository's history. You'll also learn about basic Git operations and workflows.
 
@@ -68,4 +68,4 @@ In this lab, you'll get hands-on experience with the fundamental Git commands: `
 
 **Summary:**
 
-In this lab, you got hands-on experience with Git's core commands: `init` to initialize a Git repository, and `add` and `commit` to track and save changes. You also learned how to view the status of your repository and the commit history. This foundational knowledge will serve as the basis for more advanced Git workflows and collaborative development. -->
+In this lab, you got hands-on experience with Git's core commands: `init` to initialize a Git repository, and `add` and `commit` to track and save changes. You also learned how to view the status of your repository and the commit history. This foundational knowledge will serve as the basis for more advanced Git workflows and collaborative development. 
