@@ -45,7 +45,7 @@ cd jsx-lab
 1. **Open `src/index.js`:**
    Open the `src/index.js` file and replace the existing code with the following:
 
-   ```jsx
+```jsx
    import React from 'react'
    import ReactDOM from 'react-dom/client'
 
@@ -57,7 +57,7 @@ cd jsx-lab
     <SimpleComponent />
   </React.StrictMode>
    )
-   ```
+```
 
 **Step 4: Run the App**
 
