@@ -11,6 +11,7 @@ In this lab, you'll create a new React project and explore its dependencies, inc
 npx create-react-app react-dependencies-lab
 cd react-dependencies-lab
 ```
+> If you receive error like this `npm ERR! enoent ENOENT: no such file or directory`, then one fix is to issue this command: `npm install npm -g` . (Credits: Antti Kukkonen)
 
 **Step 2: Exploring Project Dependencies and Dev Dependencies**
 
